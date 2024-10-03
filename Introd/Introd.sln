@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introd", "Introd\Introd.csproj", "{27566046-1FCA-46D2-A622-48C6363782A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27566046-1FCA-46D2-A622-48C6363782A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27566046-1FCA-46D2-A622-48C6363782A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27566046-1FCA-46D2-A622-48C6363782A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27566046-1FCA-46D2-A622-48C6363782A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54390E80-1C19-41AF-8138-205D8D050A88}
+	EndGlobalSection
+EndGlobal
