@@ -16,9 +16,17 @@ for (int i = 1; i <= 10; i++)
     {
         Console.WriteLine("What is " + num1 + " + " + num2 + "?");
         string inputStr = Console.ReadLine();
-        int input = Convert.ToInt32(inputStr);
 
-        inputList.Add(input);
+        try
+        {
+            int input = Convert.ToInt32(inputStr);
+
+            inputList.Add(input);
+        }             
+        catch
+        {
+            inputList.Add(-1);
+        }
 
         int correctAnswer = num1 + num2;
         correctList.Add(correctAnswer);
@@ -27,11 +35,29 @@ for (int i = 1; i <= 10; i++)
     {
         Console.WriteLine("What is " + num1 + " * " + num2 + "?");
         string inputStr = Console.ReadLine();
-        int input = Convert.ToInt32(inputStr);
+        try
+        {
+            int input = Convert.ToInt32(inputStr);
 
-        inputList.Add(input);
-
+            inputList.Add(input);
+        }
+        catch
+        {
+            inputList.Add(-1);
+        }
         int correctAnswer = num1 * num2;
         correctList.Add(correctAnswer);
     }
 }
+
+int score = 0;
+
+for (int i = 0; i < 10; i++)
+{
+    if (correctList[i] == inputList[i])
+    {
+        score++;
+    }
+}
+
+Console.WriteLine("Score: " + score + " out of 10");
